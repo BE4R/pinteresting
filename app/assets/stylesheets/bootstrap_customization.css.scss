@@ -1,1 +1,15 @@
+html {
+	margin: 0px;
+	height: 100%;
+}
+
+body {		
+	background-image: -webkit-linear-gradient(bottom left, #DADFE1 0%, #6C7A89 100%);
+	height: 100%;
+	background-size: cover;
+}
+
+$navbar-default-bg:  #2C3E50;
+$navbar-default-link-color: #ffffff;
+
 @import 'bootstrap';
