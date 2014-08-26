@@ -12,6 +12,12 @@
 	<%= render 'layouts/header' %>
 	
 	<div class='container'>
+
+		<!-- flash message that says "Thanks for Logging In" or "Thanks for Signing Up" Will go in detail later -->
+		<% flash.each do |name, msg| %>
+			<%= content_tag(:div, msg, class: "alert alert-info") %>
+		<% end %>
+
 		<%= yield %>
 	</div>
 
